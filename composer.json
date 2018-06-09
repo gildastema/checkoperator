@@ -10,9 +10,13 @@
     ],
     "autoload": {
         "psr-4" : {
-            "Phone\\": "src/"
+            "Phone\\": "src/phone",
+            "Tests\\": "src/tests/"
+
         }
     },
     "minimum-stability": "dev",
-    "require": {}
+    "require": {
+        "phpunit/phpunit": "^7.3@dev"
+    }
 }
