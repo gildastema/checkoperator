@@ -60,4 +60,17 @@ class Operator
 
     }
     }
+
+      private  function isYoomee($phone)
+    {
+        $tab1 = range(242901000, 242999999);
+        if (in_array($phone, $tab1)){
+            return true;
+        }elseif ($phone == "243760083"){
+            return true;
+        }
+        else{
+            return false;
+        }
+    }
 }
