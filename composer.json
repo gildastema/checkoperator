@@ -1,0 +1,18 @@
+{
+    "name": "avssarl/checkoperator",
+    "description": "Get operator for the number in cameroon",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Gildas Tema",
+            "email": "gtema@avssarl.com"
+        }
+    ],
+    "autoload": {
+        "psr-4" : {
+            "Phone\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {}
+}
