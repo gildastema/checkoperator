@@ -25,6 +25,8 @@ namespace Tests;
      {
         $this->assertEquals(Constant::ORANGE, $this->operator->getOperator('237691131446'));
         $this->assertEquals(Constant::ORANGE, $this->operator->getOperator('237696706283'));
+        $this->assertEquals(Constant::ORANGE, $this->operator->getOperator('237697857408'));
+        $this->assertEquals(Constant::ORANGE, $this->operator->getOperator('237657669873'));
      }
 
      /**
@@ -49,5 +51,10 @@ namespace Tests;
      public function verifyTelecel()
      {
          $this->assertEquals(Constant::TELECEL, $this->operator->getOperator('23675875050'));
+     }
+
+     public function verifyBadNumber()
+     {
+         $this->assertEquals(Constant::UNKOWN_OPERATOR, $this->operator->getOperator('237000'));
      }
  }
