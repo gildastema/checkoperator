@@ -1,7 +1,7 @@
 ### Status
-[![Build Status](https://travis-ci.org/gildastema/checkoperator.svg?branch=master)](https://travis-ci.org/gildastema/checkoperator.svg?branch=master)
-[![Version Stable](https://img.shields.io/packagist/v/avssarl/checkoperator.svg)](https://img.shields.io/packagist/v/avssarl/checkoperator.svg)
-[![Version Stable](https://img.shields.io/packagist/dm/avssarl/checkoperator.svg)](https://img.shields.io/packagist/dm/avssarl/checkoperator.svg)
+[![Build Status](https://travis-ci.org/gildastema/checkoperator.svg?branch=master)](https://travis-ci.org/gildastema/checkoperator)
+[![Packetgist](https://img.shields.io/packagist/v/avssarl/checkoperator.svg)](https://packagist.org/packages/avssarl/checkoperator)
+[![Version Stable](https://img.shields.io/packagist/dm/avssarl/checkoperator.svg)](https://packagist.org/packages/avssarl/checkoperator/stats)
 
 
 
