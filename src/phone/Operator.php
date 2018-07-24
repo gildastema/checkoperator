@@ -70,4 +70,15 @@ class Operator
             return false;
         }
     }
+
+
+    public function getCountry($phone)
+    {
+        $phone = trim($phone);
+
+        if(strlen($phone) == 12 && strpos($phone, Constant::CAMEROON, 0) === 0){
+            return Constant::CAMEROON;
+        }elseif (strlen($phone) == 11  && strpos($phone, Constant::RCA, 0) === 0) return Constant::RCA;
+        else return Constant::UNKOWN_OPERATOR;
+    }
 }

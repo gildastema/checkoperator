@@ -53,8 +53,23 @@ namespace Tests;
          $this->assertEquals(Constant::TELECEL, $this->operator->getOperator('23675875050'));
      }
 
+     /**
+      * @test
+      */
      public function verifyBadNumber()
      {
          $this->assertEquals(Constant::UNKOWN_OPERATOR, $this->operator->getOperator('237000'));
+     }
+
+     /**
+      * @test
+      */
+     public function verifyCountry()
+     {
+        self::assertEquals(Constant::CAMEROON, $this->operator->getCountry("237691131446"));
+        self::assertEquals(Constant::CAMEROON, $this->operator->getCountry("237678986466"));
+        self::assertEquals(Constant::CAMEROON, $this->operator->getCountry("237678986237"));
+        self::assertEquals(Constant::CAMEROON, $this->operator->getCountry("237672376237"));
+        self::assertEquals(Constant::UNKOWN_OPERATOR, $this->operator->getCountry("232672376237"));
      }
  }
